@@ -4,7 +4,7 @@ Um die Reichweite seiner App zu erhöhen, ist man natürlich gut beraten, diese 
 Hierbei sind in erste Linie die Wortlaute in den Activities betroffen.  
 In dieser App wird gezeigt, wie dies erledigt werden kann.
 
-# Hilfestellung
+__Hilfestellung__
 
 Die String-Ressourcen findet Ihr unter  
 &nbsp;&nbsp;&nbsp;&nbsp;**res/values/strings.xml**
@@ -16,13 +16,13 @@ Ist jedoch für die im Android-Gerät eingestellte Sprache eine Ressource-Datei 
 
 Fangen wir an.
 
-Als erstes der der **app_name** angepaßt.  
-Diese trägt nämlich zur Zeit noch den Namen des Projektes und diese in Deutsch.  
-Also 'Ressourcen' in 'Resources' ändern. Danke!   
+Als erstes den **app_name** angepassen.  
+Diese trägt nämlich zur Zeit noch den Namen des Projektes und dieser ist in Deutsch ausformuliert.    
+Also 'Ressourcen' bitte in 'Resources' ändern.   
 
 ![Image](./readme-img/1-Resources-tagged.png)
 
-Die Datei 'strings.xml' kann einmal als pure XML-Datei bearbeitet werden oder mehr oder minder komfortabler über 'Resources'. Zu finden am linken, unteren Rand des Editor-Fensters.
+Die Datei 'strings.xml' kann einmal als pure XML-Datei bearbeitet werden oder mehr oder minder komfortabler über 'Resources'. Dee bevorzugte Editor läßt sich am linken, unteren Rand des Editor-Fensters auswählen.
 
 ![Image](./readme-img/2-android-ressources-default-2.png)
 
@@ -31,7 +31,7 @@ Um nun eine eigene Ressource zu erstellen, bewegen wir uns zu
 und klicken dort drauf.
 
 Es erscheint das mittlerweile bekannte 'Graphical Layout'.  
-Dort auf diese Art Weltkugel klicken und 'Add New Translation' auswählen.
+Dort auf diese Art 'Weltkugel' klicken und 'Add New Translation' auswählen.
 
 ![Image](./readme-img/3-new-translation.png)
 
@@ -41,15 +41,27 @@ Es erscheint der folgende Dialog:
 
 In diesem Dialog ist als erstes die Auswahlbox 'Language' zu klicken und der gewünschte __Sprachraum__ zu wählen.  
 Danach kann bei Bedarf noch eine Region ausgewählt werden.  
-Im Beispiel-Fall __Language__ gleich 'Deutschland' würde dort 
+Bedauerlicherweise erscheint dort der Länder-Code der ganzen Welt.
+Zutreffend wären jedoch für die Lokale 'de' die deutschsprachigen Länder Deutschland, Österreich, Schweiz usw. . Dies ist jedoch nicht gegeben. 
 
 ![Image](./readme-img/5-new-ressource-finished.png)
 
+Bringen wir also die deutschen Übersetzungen für die bereits bestehenden Einträge ein.  
+Ein Anmerkung : In einer neuen 'Translation' werden nur die Einträge berücksichtigt, welche in der Default-Datei vorhanden sind.  
+Kommen nun während der Entwicklungs-Phase neue Einträge hinzu, so sind bereits vorhandene 'Translations' anzupassen. Jedenfalls ist dies so zum Zeitpunkt.  
+
+Nun zum Ausprobieren unserer Übersetzung.
+
+Es wird nun wiederum auf die Weltkugel geklickt.
+Dort steht nun ein weiterer Eintrag namens 'de' zur Verfügung.  
+Diesen bitte auswählen.
+
 ![Image](./readme-img/6-select-new-de-ressource.png)
+
+Wie erwartet erscheinen nun die Wortlaute für den deutschen Sprachraum. 
 
 ![Image](./readme-img/7-ressource-de.png)
 
-
-# Was sollten wir jetzt beherrschen?
+__Was sollten wir jetzt beherrschen?__
 
 - String-Ressourcen für verschiedenlichste Sprach-Räume anlegen zu können
