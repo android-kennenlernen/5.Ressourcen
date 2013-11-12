@@ -22,7 +22,8 @@ Also 'Ressourcen' bitte in 'Resources' ändern.
 
 ![Image](./readme-img/1-Resources-tagged.png)
 
-Die Datei 'strings.xml' kann einmal als pure XML-Datei bearbeitet werden oder mehr oder minder komfortabler über 'Resources'. Dee bevorzugte Editor läßt sich am linken, unteren Rand des Editor-Fensters auswählen.
+Die Datei 'strings.xml' kann einmal als pure XML-Datei bearbeitet werden oder mehr oder minder komfortabler über 'Resources'.  
+Der bevorzugte Editor läßt sich am linken, unteren Rand des Editor-Fensters auswählen.
 
 ![Image](./readme-img/2-android-ressources-default-2.png)
 
